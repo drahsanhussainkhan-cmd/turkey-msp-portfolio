@@ -1,0 +1,127 @@
+{
+  "report_title": "Marine Spatial Planning - Turkish Waters Assessment",
+  "report_date": "20 February 2026",
+  "report_version": "1.0",
+  "study_area": {
+    "country": "Turkey",
+    "eez_area_km2": 262233,
+    "coastline_km": 8333,
+    "marine_basins": [
+      "Black Sea",
+      "Aegean Sea",
+      "Mediterranean Sea",
+      "Sea of Marmara"
+    ],
+    "crs": "EPSG:4326"
+  },
+  "conservation": {
+    "total_mpas": 17,
+    "mpas_in_eez": 5,
+    "mpa_area_km2": 237.5,
+    "mpa_coverage_pct": 0.1,
+    "cbd_30x30_target_pct": 30.0,
+    "gap_to_target_km2": 72757,
+    "habitat_zone_protection": {
+      "Littoral (0-10m)": {
+        "protection_pct": 0.12,
+        "area_km2": 4200
+      },
+      "Infralittoral (10-40m)": {
+        "protection_pct": 0.08,
+        "area_km2": 12500
+      },
+      "Circalittoral (40-200m)": {
+        "protection_pct": 0.1,
+        "area_km2": 38600
+      },
+      "Bathyal (200-2000m)": {
+        "protection_pct": 0.05,
+        "area_km2": 135000
+      },
+      "Abyssal (>2000m)": {
+        "protection_pct": 0.0,
+        "area_km2": 71933
+      }
+    }
+  },
+  "renewable_energy": {
+    "offshore_wind": {
+      "suitable_area_km2": 2778,
+      "suitable_pct_of_eez": 1.13,
+      "theoretical_capacity_gw": 41.7,
+      "depth_range_m": "0-50",
+      "shore_distance_km": "5-50"
+    },
+    "tidal_energy": {
+      "suitable_area_km2": 18.3,
+      "technical_potential_mw": 750,
+      "peak_velocity_ms": 3.2,
+      "peak_location": "Central Bosphorus",
+      "viable_sites": 6
+    }
+  },
+  "cumulative_impact": {
+    "high_impact_area_km2": 41102,
+    "high_impact_pct": 15.5,
+    "hotspot": "Istanbul",
+    "hotspot_score": 0.949,
+    "pressure_layers": [
+      "Fishing",
+      "Shipping",
+      "Coastal Development",
+      "Pollution",
+      "Climate Change"
+    ],
+    "city_scores": {
+      "Istanbul": 0.949,
+      "Izmir": 0.72,
+      "Antalya": 0.65,
+      "Mersin": 0.58,
+      "Samsun": 0.54,
+      "Trabzon": 0.51
+    }
+  },
+  "spatial_conflicts": {
+    "total_conflict_km2": 5829,
+    "shipping_vs_fishing_km2": 5829,
+    "shipping_vs_wind_km2": 138,
+    "shipping_vs_mpa_km2": 0.3,
+    "shipping_routes_assessed": 5
+  },
+  "coastal_vulnerability": {
+    "high_risk_area_km2": 7659,
+    "high_risk_pct": 12.1,
+    "highest_risk_delta": "Kizilirmak",
+    "highest_risk_score": 0.913,
+    "deltas_assessed": 6
+  },
+  "habitat_suitability": {
+    "species": "European Anchovy (Engraulis encrasicolus)",
+    "high_suitability_km2": 36621,
+    "high_suitability_pct": 15.1,
+    "top_basin": "Aegean Sea",
+    "top_basin_score": 0.66
+  },
+  "data_sources": [
+    "GEBCO 2025 Bathymetry",
+    "WDPA February 2026 (Turkey)",
+    "VLIZ Maritime Boundaries v12",
+    "Natural Earth 10m Land Polygons",
+    "Synthetic AIS Fishing Data",
+    "Synthetic Tidal Current Model"
+  ],
+  "projects_included": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ]
+}
