@@ -52,4 +52,5 @@ Open `turkey_msp_interactive.html` in any web browser. No installation needed.
 - Coastal erosion hotspot: Kizilirmak Delta (risk score 1.0)
 
 ## Output
-Open [turkey_msp_interactive.html](turkey_msp_interactive.html) in your browser.
+## 🗺️ Live Interactive Map
+[View the interactive MSP map for Turkish waters](https://drahsanhussainkhan-cmd.github.io/turkey-msp-portfolio/project-13-interactive-webmap/turkey_msp_interactive.html)
