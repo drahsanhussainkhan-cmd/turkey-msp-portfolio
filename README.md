@@ -99,6 +99,6 @@ python -m streamlit run msp_dashboard.py
 ---
 
 ## Contact
-**Drahan Hussain Khan**
+**Dr Ahsan Hussain Khan**
 Marine GIS Analyst | Spatial Planning & Environmental Data
 GitHub: github.com/drahsanhussainkhan-cmd
